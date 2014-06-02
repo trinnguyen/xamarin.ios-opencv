@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceDetector.OpenCVXamarin", "FaceDetector.OpenCVXamarin\FaceDetector.OpenCVXamarin.csproj", "{8B63D09D-4508-420B-B3D9-BDF83958E4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceDetector.OpenCVXamarin.Binding", "FaceDetector.OpenCVXamarin.Binding\FaceDetector.OpenCVXamarin.Binding.csproj", "{34EB4D18-4720-4FCC-A408-A655824469D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Release|iPhone.Build.0 = Release|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{34EB4D18-4720-4FCC-A408-A655824469D9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Debug|iPhone.Build.0 = Debug|iPhone
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Release|iPhone.ActiveCfg = Release|iPhone
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Release|iPhone.Build.0 = Release|iPhone
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{8B63D09D-4508-420B-B3D9-BDF83958E4C4}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FaceDetector.OpenCVXamarin\FaceDetector.OpenCVXamarin.csproj
+	EndGlobalSection
+EndGlobal
