@@ -1,10 +1,10 @@
 using System;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using Foundation;
+using UIKit;
 using System.CodeDom.Compiler;
 using FaceDetector.OpenCVXamarin.Binding;
-using System.Drawing;
-using MonoTouch.CoreGraphics;
+using CoreGraphics;
+using CoreGraphics;
 
 namespace FaceDetector.OpenCVXamarin
 {
@@ -40,12 +40,12 @@ namespace FaceDetector.OpenCVXamarin
 			CGContext context = UIGraphics.GetCurrentContext();
 
 			//draw src image
-			srcImage.Draw (new RectangleF (0, 0, srcImage.Size.Width, srcImage.Size.Height));
+			srcImage.Draw (new CGRect (0, 0, srcImage.Size.Width, srcImage.Size.Height));
 
 			//draw faces
 			for (int i=0; i<arrFaces.Count; i++ )	{
 				NSValue valRect = arrFaces.GetItem<NSValue>(i);
-				RectangleF rect = valRect.CGRectValue;
+				CGRect rect = valRect.CGRectValue;
 
 				//draw
 				context.SetStrokeColor (UIColor.Red.CGColor);
