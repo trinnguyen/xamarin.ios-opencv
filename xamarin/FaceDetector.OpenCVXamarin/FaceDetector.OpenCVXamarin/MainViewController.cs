@@ -2,15 +2,13 @@ using System;
 using Foundation;
 using UIKit;
 using System.CodeDom.Compiler;
-using FaceDetector.OpenCVXamarin.Binding;
-using CoreGraphics;
 using CoreGraphics;
 
 namespace FaceDetector.OpenCVXamarin
 {
 	partial class MainViewController : UIViewController
 	{
-		private FaceDetector.OpenCVXamarin.Binding.FaceDetector _faceDetector;
+        private FaceDetector.OpenCVXamarin.Binding.FaceDetector _faceDetector;
 		public MainViewController (IntPtr handle) : base (handle)
 		{
 			string filePath = NSBundle.MainBundle.PathForResource ("haarcascade_frontalface_alt", "xml");
@@ -24,7 +22,7 @@ namespace FaceDetector.OpenCVXamarin
 
 			//debug
 			Console.WriteLine ("faces count: {0}", arrFaces.Count);
-			for (int i=0; i<arrFaces.Count; i++ )	{
+			for (nuint i=0; i<arrFaces.Count; i++ )	{
 				NSValue valRect = arrFaces.GetItem<NSValue>(i);
 				Console.WriteLine ("face: {0}", valRect.CGRectValue);
 			}
@@ -43,7 +41,7 @@ namespace FaceDetector.OpenCVXamarin
 			srcImage.Draw (new CGRect (0, 0, srcImage.Size.Width, srcImage.Size.Height));
 
 			//draw faces
-			for (int i=0; i<arrFaces.Count; i++ )	{
+            for (nuint i=0; i<arrFaces.Count; i++ )	{
 				NSValue valRect = arrFaces.GetItem<NSValue>(i);
 				CGRect rect = valRect.CGRectValue;
 
