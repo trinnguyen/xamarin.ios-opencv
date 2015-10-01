@@ -7,7 +7,9 @@ Guide
 ===================
 Blog: http://trinnguyen.com/opencv-for-xamarin-ios/ 
 
-Check OpenCV for Xamarin.Android here: OpenCV for Xamarin.Android
+[OpenCV for Xamarin.Android]
+
+   [OpenCV for Xamarin.Android]: <http://trinnguyen.com/opencv-for-xamarin-android/>
 
 
 Structure
