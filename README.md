@@ -5,7 +5,7 @@ These are example projects for using OpenCV on Xamarin.iOS
 
 Guide
 ===================
-Blog: http://trinnguyen.com/opencv-for-xamarin-ios/ 
+Blog: http://trinnguyen.com/opencv-for-xamarin-ios
 
 See guide for Xamarin.Android here: [OpenCV for Xamarin.Android]
 
